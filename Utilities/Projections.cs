@@ -1,4 +1,4 @@
-﻿namespace EntityStore.Net.Utilities
+﻿namespace EntityStore.Net
 {
     public class Projections
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EntityStore.Net.HelperClasses
+namespace EntityStore.Net
 {
     internal class Metadata
     {

@@ -1,6 +1,4 @@
-﻿using EntityStore.Net.HelperClasses;
-using EntityStore.Net.Utilities;
-using EventStore.ClientAPI;
+﻿using EventStore.ClientAPI;
 using EventStore.ClientAPI.Projections;
 using Newtonsoft.Json;
 using System;

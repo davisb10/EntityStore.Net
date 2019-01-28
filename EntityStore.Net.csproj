@@ -2,11 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Brycen Davis</Authors>
+    <Company>N/A</Company>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/davisb10/EntityStore.Net</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/davisb10/EntityStore.Net</PackageProjectUrl>
+    <Copyright></Copyright>
+    <Description>.NET Utility Class used with an Event Store backend. Stores and retrieves entities (C# objects) as well as their associated property changes.</Description>
+    <Version>0.0.1</Version>
+    <PackageReleaseNotes>Initial Build</PackageReleaseNotes>
+    <PackageTags>eventstore</PackageTags>
+    <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="EventStore.ClientAPI.NetCore" Version="4.1.0.23" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
   </ItemGroup>
 
 </Project>

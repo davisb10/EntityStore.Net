@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EntityStore.Net.HelperClasses
+namespace EntityStore.Net
 {
     public class EntityWithHistory<T> where T : class
     {

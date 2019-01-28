@@ -1,8 +1,7 @@
-﻿using EntityStore.Net.HelperClasses;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Reflection;
 
-namespace EntityStore.Net.Utilities
+namespace EntityStore.Net
 {
     public class PropertyComparator
     {

@@ -1,4 +1,4 @@
-﻿namespace EntityStore.Net.HelperClasses
+﻿namespace EntityStore.Net
 {
     public class EntityPropertyChange
     {
